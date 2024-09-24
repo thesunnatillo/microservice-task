@@ -1,0 +1,6 @@
+Repository url:
+
+api-server:
+auth-service: 
+core-service: 
+gloabls: 
