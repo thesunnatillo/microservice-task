@@ -7,10 +7,8 @@ Colone qilinadi!
 - Core-Service: https://github.com/thesunnatillo/microoservice-core-service.git
 ---
 
-env.example filedan .env filega nusxa olinadi
-
-- auth-service ```typeOrm.config.ts``` va ```seeds/seed.ts``` da psql malumotlar kiritiladi
-- core-service ```typeOrm.config.ts``` da psql malumotlar kiritiladi 
+env.example filedan .env filega nusxa olinadi hammasida
+- GitBash: ```cp .env.example .env```
 ---
 
 <h3>Ishga tushirish<h3>
