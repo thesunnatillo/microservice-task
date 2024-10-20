@@ -1,17 +1,30 @@
-# Task
-
+# Core-Service repozitoriyasini klonlash
+git clone https://github.com/thesunnatillo/microoservice-core-service.git
+```
 ---
-Colone qilinadi!
-- Api-Server: https://github.com/thesunnatillo/microservice-api-server.git
-- Auth-Service: https://github.com/thesunnatillo/microoservice-auth-service.git
-- Core-Service: https://github.com/thesunnatillo/microoservice-core-service.git
+# Har Bir Repozitoriyaga O‘tish
+
+# Har bir repozitoriyaga o‘tib, u yerdagi amallarni bajaring:
+
+```
+cd <repository>
+```
 ---
 
-env.example filedan .env filega nusxa olinadi hammasida
-- GitBash: ```cp .env.example .env```
+# Muhit O'zgaruvchilarini Sozlash
+
+# Har bir repozitoriyada .env.example faylini .env sifatida nusxa oling:
+
+```
+# .env.example faylini .env sifatida nusxa olish (GitBash)
+cp .env.example .env
+```
 ---
 
-<h3>Ishga tushirish<h3>
+# Mikroservislarni Ishga Tushirish
 
-```cd <ropesitory>```<br><br>
-```./run.sh```
+# Barcha repozitoriyalar uchun quyidagi buyruqni ishlating:
+
+```
+./run.sh
+```
